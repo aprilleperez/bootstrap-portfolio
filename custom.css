@@ -47,23 +47,34 @@ h3 {
     box-shadow: rgba(178, 149, 139, 0.425);
 } */
 
+
+/* needed to use !important to override Bootstrap's !importants*/
 .cstmButton {
-    color: #B2958B;
-    border-color: #B2958B;
+    color: #B2958B!important;
+    border-color: #B2958B!important;
+    text-transform: none;
+    box-shadow: none!important;
 }
 
 .cstmButton:hover {
-    background-color: #B2958B;
-    border-color: #B2958B;
+    background-color: #B2958B!important;
+    border-color: #B2958B!important;
+    color: white!important;
 }
 
-/* .cstmButton:active {
-    background-color: #B2958B;
-    border-color: #B2958B;
-} */
+.cstmButton:focus {
+    background-color: #B2958B!important;
+    border-color: #B2958B!important;
+    color: white!important;
+}
+
+.cstmButton:active {
+    color: #B2958B!important;
+    border-color: #B2958B!important;
+}
 
 
 .cstmFooter {
     background-color: #FFE8E0!important;
-    color: white!important;
+    color: #000!important;
 }
