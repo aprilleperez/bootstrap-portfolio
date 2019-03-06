@@ -34,6 +34,14 @@ h3 {
     color: #B2958B;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
 .cstmOverlay {
     background-color: rgba(178, 149, 139, 0.705);
 }
